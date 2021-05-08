@@ -30,7 +30,7 @@ async function fetchApi(url) {
 function generatePics(data) {
     data.photos.forEach(photo => {
         const galleryImg = document.createElement('div');
-        galleryImg.classList.add('gallery-img')
+        galleryImg.classList.add('pics-img')
         galleryImg.innerHTML = `<img src=${photo.src.large}></img> 
         <div class='pics-info'>
         <p>${photo.photographer}</p>
