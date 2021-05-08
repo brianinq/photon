@@ -42,7 +42,7 @@ function generatePics(data) {
 
 
 async function curatedPics() {
-    const data = await fetchApi('https://api.pexels.com/v1/curated?per_page=20&page=1')
+    const data = await fetchApi('https://api.pexels.com/v1/curated?per_page=&page=1')
 
     generatePics(data)
 }
