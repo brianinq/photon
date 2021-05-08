@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f1f3de;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+
+    h2 {
+        padding: 2rem;
+    }
+}
+#logo {
+    text-decoration: none;
+    color: #000;
+}
+.search-form{
+    padding: 2rem;
+    display: flex;
+
+    input{
+        font-size: 2rem;
+        padding: 0.5rem;
+        border: none;
+        border: 1px solid #000;
+        width: 100%;
+    }
+    button{
+        border: none;
+        padding: 0.5rem;
+        font-size: 1.3rem;
+        background: #4100b4;
+        color: #fff;
+        cursor: pointer;
+    }
+}
